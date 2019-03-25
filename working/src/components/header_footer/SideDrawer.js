@@ -5,6 +5,8 @@ import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
+
+
 const SideDrawer = (props) => {
 
     const scrollToElement = (element) => {
@@ -25,23 +27,23 @@ const SideDrawer = (props) => {
         >
             <List component="nav">
                 <ListItem button onClick={()=> scrollToElement('featured')}>
-                    Event starts in
+                    First Item Name in
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('venuenfo')}>
-                    Venue NFO
+                    Second Item Name
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('highlights')}>
-                    Highlights
+                    Third Item Name
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('pricing')}>
-                    Pricing
+                    Fourth Item Name
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('location')}>
-                    Location
+                    Fifth Item Name
                 </ListItem>
 
             </List> 
