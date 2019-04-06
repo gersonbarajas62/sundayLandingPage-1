@@ -27,7 +27,7 @@ const SideDrawer = (props) => {
         >
             <List component="nav">
                 <ListItem button onClick={()=> scrollToElement('featured')}>
-                    First Item Name in
+                    featured
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('venuenfo')}>
@@ -46,7 +46,7 @@ const SideDrawer = (props) => {
                     Fifth Item Name
                 </ListItem>
 
-            </List> 
+            </List>
         </Drawer>
     );
 };
