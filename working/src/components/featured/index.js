@@ -10,7 +10,7 @@ const Featured = () => {
 
             <div className="artist_name">
                 <div className="wrapper">
-                    King of the Jungle
+                    Mosaic Mexico
                 </div>
             </div>
 
